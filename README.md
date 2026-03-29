@@ -1,6 +1,6 @@
 # Centralized Log Aggregation and Monitoring using ELK Stack
 
-## 📌 Project Overview
+# Project Overview
 
 This project demonstrates a centralized logging system using the ELK Stack (Elasticsearch, Logstash, Kibana).
 
@@ -9,7 +9,7 @@ This system collects logs from multiple servers, parses and stores them in Elast
 
 ---
 
-## 🚀 Key Benefits
+# Key Benefits
 
 * Centralized logging
 * Real-time error detection
@@ -18,7 +18,7 @@ This system collects logs from multiple servers, parses and stores them in Elast
 
 ---
 
-## 🏗️ Architecture / Data Flow
+# Architecture / Data Flow
 
 App Server 1 (Nginx)
 App Server 2 (Nginx)
@@ -33,7 +33,7 @@ Kibana
 
 ---
 
-## ⚙️ Components
+#  Components
 
 * **App Servers**: Run Nginx to serve applications and generate logs
 * **Filebeat**: Collects logs and sends them to Logstash
@@ -43,7 +43,7 @@ Kibana
 
 ---
 
-## 🛠️ Technologies Used
+# Technologies Used
 
 * AWS EC2
 * Nginx (Web Server)
@@ -56,9 +56,9 @@ Kibana
 
 ---
 
-## 🖥️ Infrastructure Setup
+# Infrastructure Setup
 
-### EC2 Instances
+# EC2 Instances
 
 | Instance     | Purpose                           |
 | ------------ | --------------------------------- |
@@ -68,38 +68,59 @@ Kibana
 
 ---
 
-## 📸 Project Screenshots
+# Project Screenshots
 
-1. **EC2 Instances**
+# EC2 Instances**
 
    <img width="1365" height="651" alt="image" src="https://github.com/user-attachments/assets/12274b84-f252-450b-ad24-7b9178abe4c7" />
 
    Shows all running instances in AWS console
 
-3. **Nginx Running in Browser**
+   # Nginx Running in Browser
+
+   <img width="1347" height="718" alt="image" src="https://github.com/user-attachments/assets/2e3b898a-93c5-4b59-9ee8-70e9c9bf2ba7" />
+
    Default Nginx page on App Server
 
-4. **404 Error in Browser**
+# 404 Error in Browser
+
+<img width="849" height="234" alt="image" src="https://github.com/user-attachments/assets/2a8d5038-927f-4e69-bc44-29a8aa96bd28" />
+   
    Shows manual 404 error generated to test ELK pipeline
 
-5. **Filebeat Running**
+# Filebeat Running**
+
+<img width="1339" height="695" alt="image" src="https://github.com/user-attachments/assets/9e1e8bc0-a7ba-476e-a343-168eead7d320" />
+   
    Verifies Filebeat service is active and forwarding logs
 
-6. **Logstash Running**
+# Logstash Running
+
+    <img width="839" height="240" alt="image" src="https://github.com/user-attachments/assets/5ba10adf-1285-456d-99eb-36befa590f0b" />
+
    Shows Logstash service running and ready to parse logs
 
-7. **Elasticsearch Index Created**
+# Elasticsearch Index Created
+
+<img width="850" height="145" alt="image" src="https://github.com/user-attachments/assets/bf1df39e-563e-4f4f-8cb7-927c0eea3371" />
+
    Confirms logs are stored in `nginx-logs-*` indices
 
-8. **Kibana Discover Logs**
+ **Kibana Discover Logs**
+
+<img width="870" height="401" alt="image" src="https://github.com/user-attachments/assets/797182cb-8b93-47f4-8fd6-80f31d5ed221" />
+
    Visualizes logs collected from App Servers
 
-9. **Error Log Detection in Kibana**
+ # Error Log Detection in Kibana
+
+<img width="1159" height="580" alt="image" src="https://github.com/user-attachments/assets/6865b3be-db43-4e19-a7f9-630fa1231845" />
+
    Shows HTTP 404 logs filtered using KQL in Kibana Discover
 
 ---
 
-## 🔍 Log Processing
+#  Log Processing
 
 Logstash parses incoming logs and applies filters:
 
@@ -110,7 +131,7 @@ Structured logs are stored in Elasticsearch indices for quick search and analysi
 
 ---
 
-## 📊 Monitoring with Kibana
+##  Monitoring with Kibana
 
 Kibana dashboards allow:
 
@@ -122,7 +143,7 @@ Kibana dashboards allow:
 
 ---
 
-## ✅ Project Outcome
+#  Project Outcome
 
 * Centralized logging implemented
 * Logs collected from multiple servers
@@ -132,46 +153,10 @@ Kibana dashboards allow:
 
 ---
 
-## 👨‍💻 Author
-
-**Riyaj Kalawant**
+##  Author
+Author
+Bhumnika Mahale
 DevOps Enthusiast | AWS | Docker | Kubernetes | CI/CD
-
 LinkedIn | GitHub
 
----
 
-## 📌 About
-
-No description, website, or topics provided.
-
----
-
-## 📊 Repository Stats
-
-* ⭐ Stars: 0
-* 👀 Watchers: 0
-* 🍴 Forks: 0
-
----
-
-## 📦 Releases
-
-No releases published
-
----
-
-## 📦 Packages
-
-No packages published
-
----
-
-## 👥 Contributors
-
-* Riyaj Kalawant (@Riyajkalawant)
-
----
-
-© 2026 GitHub, Inc.
-Terms · Privacy · Security · Status
