@@ -88,7 +88,7 @@ Kibana
    
    Shows manual 404 error generated to test ELK pipeline
 
-# Filebeat Running**
+# Filebeat Running
 
 <img width="1339" height="695" alt="image" src="https://github.com/user-attachments/assets/9e1e8bc0-a7ba-476e-a343-168eead7d320" />
    
@@ -106,7 +106,7 @@ Kibana
 
    Confirms logs are stored in `nginx-logs-*` indices
 
- **Kibana Discover Logs**
+ # Kibana Discover Logs
 
 <img width="870" height="401" alt="image" src="https://github.com/user-attachments/assets/797182cb-8b93-47f4-8fd6-80f31d5ed221" />
 
