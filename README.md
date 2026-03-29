@@ -96,7 +96,8 @@ Kibana
 
 # Logstash Running
 
-    <img width="839" height="240" alt="image" src="https://github.com/user-attachments/assets/5ba10adf-1285-456d-99eb-36befa590f0b" />
+   <img width="839" height="240" alt="image" src="https://github.com/user-attachments/assets/0ce5b09b-2359-4e7f-ab42-0195630d4240" />
+
 
    Shows Logstash service running and ready to parse logs
 
