@@ -70,7 +70,7 @@ Kibana
 
 # Project Screenshots
 
-# EC2 Instances**
+# EC2 Instances
 
    <img width="1365" height="651" alt="image" src="https://github.com/user-attachments/assets/12274b84-f252-450b-ad24-7b9178abe4c7" />
 
