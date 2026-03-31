@@ -115,7 +115,8 @@ Kibana
 
  # Error Log Detection in Kibana
 
-<img width="1159" height="580" alt="image" src="https://github.com/user-attachments/assets/6865b3be-db43-4e19-a7f9-630fa1231845" />
+<img width="848" height="432" alt="image" src="https://github.com/user-attachments/assets/f5bbef12-e78c-4052-a06a-e6fc84dfd2b1" />
+
 
    Shows HTTP 404 logs filtered using KQL in Kibana Discover
 
