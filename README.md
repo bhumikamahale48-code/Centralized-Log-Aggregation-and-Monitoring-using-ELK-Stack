@@ -84,7 +84,8 @@ Kibana
 
 # 404 Error in Browser
 
-<img width="849" height="234" alt="image" src="https://github.com/user-attachments/assets/2a8d5038-927f-4e69-bc44-29a8aa96bd28" />
+<img width="804" height="221" alt="image" src="https://github.com/user-attachments/assets/a83436e2-b007-4297-a6b5-1843aad6d350" />
+
    
    Shows manual 404 error generated to test ELK pipeline
 
