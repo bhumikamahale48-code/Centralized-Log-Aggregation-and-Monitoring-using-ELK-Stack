@@ -1,4 +1,4 @@
-# Centralized Log Aggregation and Monitoring using ELK Stack
+# Centralized Log Aggregation and Monitoring using ELK Stack 
 
 # Project Overview
 
